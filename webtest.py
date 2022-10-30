@@ -1,12 +1,6 @@
-from email.header import Header
-from turtle import color
 import cv2
 import numpy as np
-from requests import head
 import streamlit as st
-import base64
-import keras
-import tensorflow as tf
 
 from keras.preprocessing import image
 from keras.models import load_model
